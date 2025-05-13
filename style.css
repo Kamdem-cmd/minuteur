@@ -1,45 +1,57 @@
 *{
-    font-family: poppins;
-    font-size: medium;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+font-family: poppins;
+font-size: medium;
+text-align: center;
 }
 body{
-    font-family: Poppins;
-    text-align: center;
-    padding-top: 50px;
-    justify-items: center;
+font-family: Poppins;
+text-align: center;
+padding-top: 50px;
+justify-items: center;
 }
 #timer, #timer1, #timer2, #timer3{
-    font-size: 48px;
-    margin-top: 190px;
-    margin-bottom: 20px;
+font-size: 48px;
+margin-top: 100px;
+margin-bottom: 20px;
+cursor: pointer;
 }
 #timerEnd{
-    font-size: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: rgba(250, 77, 77, 0.342);
-
-
+font-size: 60px;
+margin-top: 40px;
+margin-bottom: 40px;
+color: rgba(250, 77, 77, 0.342);
+}
+button{
+background-color: rgb(33, 132, 45);
+color: aliceblue;
+border:solid darkgreen ;
+width: 120px;
+}
+button:hover{
+    border: solid green;
 }
 #duration, #duration1, #duration2, #duration3{
-    width: 100px;
+width: 60px;
 }
 label{
-    font-size: 25px;
+font-size: 25px;
 }
 .label{
-    font-size: 25px;
-    margin-top: 205px;
+font-size: 25px;
+margin-top: 120px;
 }
 .screen{
-    margin-top: 20px;
-    justify-content: space-around;
-    justify-items: center;
-    display: flex;
-    border: solid rgb(47, 255, 71) 5px;
-    border-radius: 50%;
-    border-style: dashed;
-    width: 435px;
-    height: 435px;
+margin-top: 20px;
+justify-content: space-around;
+justify-items: center;
+display: flex;
+border: solid rgb(47, 255, 71) 5px;
+border-radius: 50%;
+border-style: dashed;
+width: 290px;
+height: 290px;
+margin-left: auto;
+margin-right: auto;
 }
